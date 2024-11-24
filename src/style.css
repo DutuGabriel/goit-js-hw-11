@@ -20,6 +20,7 @@ body {
 .search-form button {
   padding: 10px;
   font-size: 16px;
+  border-radius: 5px;
   background-color: #2f179e;
   color: white;
   border: none;
@@ -28,7 +29,7 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 16px;
   padding: 20px;
 }
@@ -47,6 +48,7 @@ body {
 
 .info {
   padding: 10px;
+  color: black;
 }
 
 .info-item {
@@ -54,11 +56,17 @@ body {
   margin-bottom: 5px;
 }
 
+.gallery .photo-card .info-item {
+  text-decoration: none;
+}
+
 .load-more {
-  padding: 10px;
-  font-size: 16px;
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 5px;
   background-color: #2f179e;
   color: white;
   border: none;
   cursor: pointer;
+  margin: 0 auto;
 }
